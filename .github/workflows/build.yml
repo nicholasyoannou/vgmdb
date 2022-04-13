@@ -20,4 +20,4 @@ jobs:
       - name: Install dependencies
         run: virtualenv --python=/usr/bin/python2 venv && venv/bin/pip install -r requirements.txt
       - name: Run unit tests
-        run: . venv/bin/activate && ./tests.sh
+        run: . venv/bin/activate && ./tests.sh 
